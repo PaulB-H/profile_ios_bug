@@ -16,8 +16,13 @@
       #content {
         display: grid;
         grid-template-areas: ".. .. ..";
+        scroll-snap-type: both mandatory;
       }
       .page {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        scroll-snap-align: center;
       }
     </style>
   </head>
